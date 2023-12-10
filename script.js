@@ -14,6 +14,7 @@ console.log(data)
 if (!data) {
     supabase.auth.signInWithOAuth({
         provider: 'google',
+        redirect_to: "https://kaasjongetje.github.io/Boodschappen"
     })
       
 }
